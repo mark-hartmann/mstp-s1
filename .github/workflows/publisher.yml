@@ -17,7 +17,7 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       - name: Repository Dispatch
-        uses: peter-evans/repository-dispatch@v1.1.2
+        uses: peter-evans/repository-dispatch@v1
         with:
           token: ${{ secrets.PAT_TOKEN }}
           repository: mark-hartmann/mstp-master
